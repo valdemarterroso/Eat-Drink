@@ -1,0 +1,101 @@
+body {
+    background-color: orange;
+}
+
+#content_login {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.login_card {
+    background-color: #fff;
+    margin: auto;
+    margin-top: 5vw;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.75);
+}
+
+.login_card img {
+    width: 20vw;
+    height: auto;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.login_card input {
+    margin: auto;
+}
+
+#nav_login {
+    float: left;
+    margin-left: -70px;
+    position: absolute;
+    height: 100%;
+    margin-top: -10px;
+    z-index: 2;
+    opacity: 0;
+}
+
+#nav_login ul {
+    height: 200px;
+    margin-top: 310px;
+    width: 80px;
+    -webkit-box-shadow: 0px 0px 16px -12px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0px 0px 16px -12px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 0px 16px -12px rgba(0, 0, 0, 0.35);
+    border-top: 3px solid #ffa500;
+    border-right: 3px solid #ffa500;
+    border-bottom: 3px solid #ffa500;
+}
+
+#nav_login ul li {
+    display: block;
+    height: 33.3%;
+    padding: 5px;
+    background: #FFF;
+    cursor: pointer;
+    line-height: 75px;
+}
+
+#nav_login ul li:hover {
+    background: #ffa500;
+    -webkit-box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.75);
+}
+
+#nav_login ul li:hover .icon {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+#nav_login ul li.active {
+    background: #ffa500;
+    -webkit-box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.75);
+}
+
+#nav_login ul li.active .icon {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+#nav_login ul li .icon {
+    font-size: 35px;
+}
+
+#nif {
+    margin: auto;
+}
+
+#n_carta {
+    margin: auto;
+}

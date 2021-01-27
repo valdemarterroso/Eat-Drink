@@ -1,0 +1,307 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html,
+        body {
+            overflow-x: hidden;
+        }
+        
+        .btn-primary {
+            background-color: orange;
+            border: 1px solid orange;
+        }
+        
+        .btn-primary:hover {
+            background-color: rgb(255, 123, 0);
+            border: 1px solid rgb(255, 123, 0);
+        }
+        
+        .span_click {
+            color: orange;
+            cursor: pointer;
+        }
+        
+        #navbar {
+            height: 4.5vw;
+            display: flex;
+            background-color: orange;
+            z-index: 10000;
+            position: fixed;
+            font-weight: 600;
+            width: 100%;
+            height: 67px;
+            top: 0;
+        }
+        
+        #navbar img {
+            height: 6vw;
+            width: auto;
+        }
+        
+        #flag {
+            background-color: #fff;
+            padding: 11px;
+            height: 140px;
+            width: 75%;
+            border-bottom: 3px solid #000;
+            border-left: 3px solid #000;
+            border-right: 3px solid #000;
+            text-align: center;
+            -webkit-box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.75);
+            box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.75);
+        }
+        
+        #flag img {
+            margin-top: 15px;
+        }
+        
+        #navbar .menu {
+            margin: auto;
+            display: flex;
+            margin-top: 17px;
+        }
+        
+        #navbar .menu p {
+            margin-left: 60px;
+            cursor: pointer;
+        }
+        
+        #home .imagem {
+            background-image: url(../img/restaurante.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            object-fit: cover;
+            width: 100%;
+            z-index: 0;
+            &::after {
+                content: " ";
+                background-color: #000;
+                width: 100%;
+                height: 100%;
+                background-size: contain;
+                background-position: center;
+                display: block;
+                opacity: .3;
+            }
+        }
+        
+        #home .imagem .barra {
+            text-align: center;
+            position: absolute;
+            z-index: 10;
+            height: 90.6vh;
+            width: 100%;
+        }
+        
+        #home .imagem .barra b {
+            display: grid;
+            margin-top: 20%;
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            color: #fff;
+            font-size: 25px;
+            text-transform: uppercase;
+            -webkit-text-stroke-width: 1.5px;
+            -webkit-text-stroke-color: black;
+        }
+        
+        #home .imagem .barra input {
+            margin-top: 25%;
+            padding: 15px;
+            -webkit-box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.75);
+            box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.75);
+            border-top-left-radius: 10px;
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 0px;
+            border-bottom-left-radius: 10px;
+            border: 3px solid #fff;
+            width: 400px;
+        }
+        
+        #home .imagem .barra span {
+            margin-top: 0.1px;
+            background-color: #FFF;
+            margin-top: 20%;
+            padding: 19.49px;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 0px;
+            margin-left: -5px;
+            cursor: pointer;
+            border: 0px solid #FFF;
+        }
+        
+        #results {
+            padding: 40px;
+            margin-top: 120px;
+        }
+        
+        #results .card {
+            width: 18rem;
+            margin: auto;
+            margin-bottom: 20px;
+            -webkit-box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.45);
+            -moz-box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.45);
+            box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.45);
+        }
+        
+        #results .card img {
+            width: 125px;
+            margin: auto;
+            margin-top: 10px;
+            border: 2px solid #fff;
+            -moz-box-shadow: 0px 6px 5px #ccc;
+            -webkit-box-shadow: 0px 6px 5px #ccc;
+            box-shadow: 0px 6px 5px #ccc;
+            -moz-border-radius: 190px;
+            -webkit-border-radius: 190px;
+            border-radius: 190px;
+        }
+        
+        #results .card h5 {
+            text-align: center;
+        }
+        
+        #results .card p {
+            text-align: center;
+        }
+        
+        #results .card a {
+            margin: auto;
+            display: block;
+        }
+        
+        #info_restaurante {
+            padding: 40px;
+            text-align: center;
+            background-image: url(../img/background.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            -webkit-box-shadow: 7px 0px 12px -8px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 7px 0px 12px -8px rgba(0, 0, 0, 0.75);
+            box-shadow: 7px 0px 12px -8px rgba(0, 0, 0, 0.75);
+            z-index: 1;
+            position: fixed;
+        }
+        
+        #info_restaurante img {
+            width: 250px;
+            margin: auto;
+            border: 3px solid #fff;
+            -moz-box-shadow: 0px 6px 5px #ccc;
+            -webkit-box-shadow: 0px 6px 5px #ccc;
+            box-shadow: 0px 6px 5px #ccc;
+            -moz-border-radius: 190px;
+            -webkit-border-radius: 190px;
+            border-radius: 50%;
+            margin-top: 120px;
+            background: #fff;
+            height: 250px;
+            object-fit: contain;
+        }
+        
+        #info_restaurante h2 {
+            margin-top: 30px;
+            font-weight: bold;
+        }
+        
+        #info_restaurante .menu {
+            margin-top: 30px;
+        }
+        
+        #info_restaurante .menu a {
+            display: inline;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 20px;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            -webkit-box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.75);
+            box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.75);
+        }
+        
+        #info_restaurante .menu a:last-child {
+            margin-left: 50px;
+        }
+        
+        .page_info {
+            margin-top: 67px;
+            background-color: #F5F7F9;
+            margin-left: 340px;
+        }
+        
+        .menu_section {
+            margin-top: 65px;
+        }
+        
+        .comida_card {
+            display: block ruby;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            width: 100%;
+            margin: auto;
+            margin-left: 40px;
+            margin-top: 10px;
+            text-align: center;
+            height: 200px;
+            -webkit-box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.75);
+            box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.75);
+        }
+        
+        .comida_card img {
+            width: 150px;
+            height: 150px;
+            margin: auto;
+            border: 3px solid orange;
+            -moz-box-shadow: 0px 6px 5px #ccc;
+            -webkit-box-shadow: 0px 6px 5px #ccc;
+            box-shadow: 0px 6px 5px #ccc;
+            -moz-border-radius: 190px;
+            -webkit-border-radius: 190px;
+            border-radius: 50%;
+            background: #fff;
+            float: left;
+        }
+        
+        .comida_card p {
+            margin-top: 15px;
+        }
+        
+        .comida_card button {
+            background-color: orange;
+            border: 1px solid orange;
+            padding: 6px;
+            cursor: pointer;
+        }
+        
+        .img_info {
+            background-image: url(../img/KFC_1.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 300px;
+            width: 100%;
+            object-fit: cover;
+            margin-top: 10px;
+            -webkit-box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.75);
+            box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.75);
+        }
+        
+        .informacao {
+            margin: 10px;
+        }

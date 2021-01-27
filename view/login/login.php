@@ -1,4 +1,4 @@
-<form class="mt-2 col-6 mx-auto">
+<form id="login_form" class="mt-2 col-6 mx-auto">
     <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Email</label>
         <input type="email" class="form-control col-10" placeholder="Insira aqui o seu email" id="exampleInputEmail1"
@@ -24,6 +24,9 @@ $("#registar").click(function() {
     $("#nav_login").attr("style", "display: block !important;").animate({
         opacity: 1
     }, 1000);
-
+})
+$("#login_form").submit(function(e) {
+    e.preventDefault();
+    window.location = "index.php";
 })
 </script>

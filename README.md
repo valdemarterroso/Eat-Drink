@@ -1,4 +1,4 @@
-![Imagem Logo Eat&Drink](src)
+![Imagem Logo Eat&Drink](C:\Users\Valdemar\Desktop)
 # Eat&Drink
 ## Quem somos?
 

@@ -1,5 +1,3 @@
-## Seja Bem-Vindo ao GitPages!
-
 # Eat&Drink
 ## Quem somos?
 
@@ -17,6 +15,8 @@ Na nossa aplicação vai existir um serviço de parte de motorista, onde esse v�
 
 
 [Link](url) and ![Image](src)
+
+
 ```
 
 

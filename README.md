@@ -1,4 +1,4 @@
-<img src="/logo.png" alt="hi" class="inline"/>
+<img src="./logo.png" class="inline"/>
 
 
 # Eat&Drink

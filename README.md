@@ -1,4 +1,6 @@
-![Imagem Logo Eat&Drink](C:\Users\Valdemar\Desktop)
+<img src="/logo.png" alt="hi" class="inline"/>
+
+
 # Eat&Drink
 ## Quem somos?
 
